@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--js模板-->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<script src="./dist/main.js"></script>
+<!-- src引入的文件将在接下来由 webpack 打包创建 -->
+<%=htmlWebpackPlugin.options.date%>
+<%=htmlWebpackPlugin.options.author%>
+</body>
+</html>

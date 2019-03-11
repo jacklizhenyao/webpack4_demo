@@ -1,0 +1,6 @@
+.flex-div {
+    /*浮动的盒子*/
+    /*每个属性加前缀麻烦，使用postcss-lodader*/  /*postcss-loader后处理css npm install postcss-loader --save-dev*/
+    /*  npm install autoprefixer --save-dev*/
+    display: flex;
+}
